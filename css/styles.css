@@ -1,8 +1,9 @@
-html{
+html {
   font-size: 20px;
 }
 body {
   margin: 0px;
+  padding-bottom: 300px;
 }
 .barraNavegacion {
   background-color: blue;
@@ -10,10 +11,9 @@ body {
   justify-content: space-between;
   padding: 20px;
 }
-.barraNavegacion li{
+.barraNavegacion li {
   margin-right: 1rem;
   font-size: 1.5rem;
-
 }
 .logo {
   display: flex;
@@ -66,7 +66,7 @@ li {
   text-shadow: 0 0 2px black;
   max-width: 100px;
 }
-.curso{
+.curso {
   margin-right: 2rem;
 }
 tr {
@@ -82,42 +82,103 @@ tr:last-child {
 td {
   width: fit-content;
   min-width: 100px;
-
 }
 .curso {
   font-weight: bold;
 }
-.telefono{
+.telefono {
   font-weight: bold;
 }
-.mail{
+.mail {
   font-weight: bold;
 }
-.contacto{
+.contacto {
   text-align: center;
 }
-.contacto h1{
+.contacto h1 {
   color: blue;
   font-size: 2rem;
 }
-.tabla a{
+.tabla a {
   -webkit-appearance: button;
-    -moz-appearance: button;
-    appearance: button;
+  -moz-appearance: button;
+  appearance: button;
 
-    text-decoration: none;
-    color: initial;
-    border: 1px solid black;
-    padding: 5px;
-    background: whitesmoke;
-        
+  text-decoration: none;
+  color: initial;
+  border: 1px solid black;
+  padding: 5px;
+  background: whitesmoke;
 }
-.tabla a:hover{
+.tabla a:hover {
   background: grey;
 }
-@media (min-width:830px){
-  .fotos{
+/* @media (min-width:830px){
+  .mentores{
     display: flex;
     justify-content: space-around;
   }
+} */
+
+.Lluis img {
+  height: 300px;
+  border-radius: 50%;
+}
+.Fer img {
+  height: 300px;
+  border-radius: 50%;
+}
+.Alberto img {
+  height: 300px;
+  border-radius: 50%;
+}
+.mentores {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.Lluis {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Fer {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Alberto {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sobreNosotros {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 3rem;
+}
+.nombre {
+  font-weight: bold;
+}
+.formulario {
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
+.datos {
+  width: 300px;
+}
+.genero {
+  text-align: left;
+}
+.enviar{
+  text-align: center;
+  padding: 5px;
+  display: grid;
+  justify-content: center;
+  margin-top: 30px;
 }

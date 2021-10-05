@@ -20,19 +20,36 @@
       </nav>
       <div class="imagenFondo"><div class="logoFondo"></div></div>
       <p class="titulo">Introduce tus datos</p>
-      <div class="formulario">
-      <select>
-        <option value="" disabled selected>¿Qué bootcamp te interesa?</option>
-          <option>Full-Time Online</option>
-          <option> Part-time Online</option>
-          <option>Full-time Presencial</option>
-      </select>
-      <input placeholder="Nombre">
-      <input placeholder="Primer Apellido">
-      <input placeholder="Segundo Apellido">
-      <input placeholder="Número de teléfono">
-      <input placeholder="Correo electrónico">
-      </div>
-
-</body>
+      <table class="formulario">
+        <thead></thead>
+        <tbody><tr>
+          <td><select>
+            <option value="" disabled selected>¿Qué bootcamp te interesa?</option>
+              <option>Full-Time Online</option>
+              <option> Part-time Online</option>
+              <option>Full-time Presencial</option>
+          </select></td></tr>
+          <tr><td> <input class="datos" placeholder="Nombre"></td></tr>
+          <tr><td><input class="datos"  placeholder="Primer Apellido"></td></tr>
+          <tr><td><input class="datos"  placeholder="Segundo Apellido"></td></tr>
+          <tr><td><input class="datos"  placeholder="Número de teléfono"></td></tr>
+          <tr><td><input class="datos" placeholder="Correo electrónico"></td></tr>
+          <tr class="genero"><td><input name="genero" type="radio"><label>Hombre</label></td></tr>
+          <tr class="genero"><td><input name="genero" type="radio">Mujer</td></tr>
+          <tr class="genero"><td><input name="genero" type="radio">Otros</td></tr>
+          <tr class="genero"><td><input name="genero" type="radio">Prefiero no decirlo</td></tr>
+          <tr><td><p>¿Has manejado algún lenguaje de programación?</p></td></tr>
+          <tr><td><input type="checkbox">Python</td></tr>
+          <tr><td><input type="checkbox">Java</td></tr>
+          <tr><td><input type="checkbox">JavaScript</td></tr>
+          <tr><td><input type="checkbox">C#</td></tr>
+          <tr><td><input type="checkbox">PHP</td></tr>
+          <tr><td><input type="checkbox">C/C++</td></tr>
+          <tr><td><input type="checkbox">R</td></tr>
+          
+          </div>
+        </tbody>
+      </table>
+      <div class="enviar"><button>Enviar</button></div>
+  </body>
 </html>
