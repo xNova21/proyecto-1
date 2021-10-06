@@ -1,5 +1,6 @@
 html {
   font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 body {
   margin: 0px;
@@ -20,7 +21,7 @@ body {
   align-items: center;
 }
 .logo img {
-  width: 150px;
+  width: 200px;
   margin-left: 1rem;
 }
 .boton {
@@ -175,7 +176,7 @@ td {
 .genero {
   text-align: left;
 }
-.enviar{
+.enviar {
   text-align: center;
   padding: 5px;
   display: grid;
