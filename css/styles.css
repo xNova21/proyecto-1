@@ -114,12 +114,26 @@ td {
 .tabla a:hover {
   background: grey;
 }
-/* @media (min-width:830px){
-  .mentores{
-    display: flex;
-    justify-content: space-around;
+@media (min-width:1300px){
+  .botonesNav{
+  justify-content: space-between;
+  color: white;
+  text-decoration: none;
+  
   }
-} */
+  .burger{
+    display: none;
+  }
+}
+@media (max-width:1299px){
+  .botonesNav{
+    display: none;    
+  }
+  .burger{
+    display: flex;
+    height: 100px;
+  }
+}
 
 .Lluis img {
   height: 300px;
