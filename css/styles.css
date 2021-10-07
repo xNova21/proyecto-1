@@ -37,9 +37,10 @@ li {
 .imagenFondo {
   background-image: url(../images/background-image.jpg);
   width: 100%;
-  height: 100vh;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  
 }
 .logoFondo {
   background-image: url(../images/letscoder-logo.png);
@@ -48,6 +49,7 @@ li {
   background-repeat: no-repeat;
   background-position-x: center;
   background-position-y: center;
+  position: fit-content;
 }
 .tabla {
   display: flex;
@@ -114,22 +116,21 @@ td {
 .tabla a:hover {
   background: grey;
 }
-@media (min-width:1300px){
-  .botonesNav{
-  justify-content: space-between;
-  color: white;
-  text-decoration: none;
-  
+@media (min-width: 1300px) {
+  .botonesNav {
+    justify-content: space-between;
+    color: white;
+    text-decoration: none;
   }
-  .burger{
+  .burger {
     display: none;
   }
 }
-@media (max-width:1299px){
-  .botonesNav{
-    display: none;    
+@media (max-width: 1299px) {
+  .botonesNav {
+    display: none;
   }
-  .burger{
+  .burger {
     display: flex;
     height: 100px;
   }
@@ -196,4 +197,12 @@ td {
   display: grid;
   justify-content: center;
   margin-top: 30px;
+}
+.flecha {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+.flecha img {
+  width: 50px;
 }
