@@ -5,4 +5,4 @@ Página de informacion sobre los Bootcamps de Let´s coder.
 ###
  Proyecto para practicar el uso de HTML y CSS.
 ###
- Tiempo invertido de cuatro días.
+ Tiempo invertido: cuatro días.
